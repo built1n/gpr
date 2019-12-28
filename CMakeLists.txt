@@ -32,4 +32,4 @@ target_link_libraries(all-tests gpr)
 add_executable(parse-gcode src/main.cpp)
 target_link_libraries(parse-gcode gpr)
 
-install(TARGETS gpr LIBRARY DESTINATION lib)
+install(TARGETS gpr LIBRARY DESTINATION /usr/lib)
